@@ -1,0 +1,19 @@
+{
+  "name": "api-lucasapps",
+  "type": "commonjs",
+  "packageManager": "yarn@3.4.1",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "description": "El API De Mis Apps",
+  "author": "Lucas11",
+  "license": "ISC",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "node .",
+    "install": "yarn install",
+    "api": "node ."
+
+  }
+}
