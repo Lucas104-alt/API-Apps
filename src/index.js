@@ -9,6 +9,11 @@ app.listen(
 )
 app.use( express.json() )
 
+app.get("/"), (req, res) => {
+ res.send("Bienvedido Al API De Mi Apps")
+
+}
+
 app.get("/apiplasuma/videoinfo", (req, res) => {
    res.status(200).send({
     game: "Minecraft",
